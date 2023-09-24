@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Manrope&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Lora:ital@1&family=Manrope&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@200&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.upper-nav{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(24,120,186);
+    background: linear-gradient(90deg, rgba(24,120,186,1) 0%, rgba(0,212,255,1) 0%, rgba(0,0,0,1) 0%);
+    display: flex;
+    justify-content: center;
+    z-index: 200;
+ 
+}
+
+
+
+.below-nav{
+    
+    width: 100vw;
+    height: 6vh;
+    background: rgb(24,120,186);
+    background: linear-gradient(90deg, rgba(24,120,186,1) 0%, rgba(0,212,255,1) 0%, rgba(66,66,66,0.9669117647058824) 0%);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: 100;
+    
+}
+
+
+
+#nav-bar-img{
+    margin-top: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+.nav-link{
+    margin-top: 2px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+}
+
+.nav-link:hover{
+    transform: scale(1.3 , 1.3);
+    transition: all 1s ease;
+}
+
+
+
+
+
+
+.initally-image{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+#first-main-image{
+    position: relative;
+    top: 3rem;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 5rem;
+}
+
+
+#first-main-image:hover{
+    transition: all 1s ease-in-out;
+    position: relative;
+    top: 3rem;
+    width: 70vw;
+    height: 65vh;
+    border-radius: 5rem;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+.box{
+    width: 100vw;
+    height: 40vh;
+    margin: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.inner-image{
+    position: relative;
+    width: 20vw;
+    height: 35vh;
+    margin: 1rem 2rem;
+}
+
+
+.inner-image-inside{
+    width: 20vw;
+    height: 35vh;
+    border-radius: 5rem;
+}
+
+#line{
+    width: 0.1rem;
+    margin-top: 0.8rem;
+    height: 35vh;
+    margin-left: 1rem;
+    background-color: black;
+}
+
+
+.text-meth{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    overflow-y: auto;
+}
+
+
+#header-text{
+    position: relative;
+    left: 4rem;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36pt;
+    font-weight: 800;
+}
+
+.text-style{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+   
+}
+
+.hed{
+    font-weight: 600;
+    font-size: 24pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    border: 1px white solid;
+}
+
+
+
+#Footer-para-first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: azure;
+    font-family: 'Playfair Display', serif;
+    font-size: 36pt;
+}
+
+
+.logos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Logo-style{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+
+
+.Logo-style:hover{
+    transition: all 1s ease;
+    transform: scale(1.5);
+    background-color: aqua;
+
+}
+
+#footer-logo-benz{
+    margin-top: 4rem;
+    
+    width: 25rem;
+    height: 15rem;
+}
+
+.footer-image-flex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

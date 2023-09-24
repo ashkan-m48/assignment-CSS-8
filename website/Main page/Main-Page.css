@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Open+Sans:wght@300;400;600&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.upper-nav{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(24,120,186);
+    background: linear-gradient(90deg, rgba(24,120,186,1) 0%, rgba(0,212,255,1) 0%, rgba(0,0,0,1) 0%);
+    display: flex;
+    justify-content: center;
+    z-index: 200;
+ 
+}
+
+
+
+.below-nav{
+    
+    width: 100vw;
+    height: 6vh;
+    background: rgb(24,120,186);
+    background: linear-gradient(90deg, rgba(24,120,186,1) 0%, rgba(0,212,255,1) 0%, rgba(66,66,66,0.9669117647058824) 0%);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    z-index: 100;
+    
+}
+
+
+
+#nav-bar-img{
+    margin-top: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+.nav-link{
+    margin-top: 2px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+}
+
+.nav-link:hover{
+    transform: scale(1.3 , 1.3);
+    transition: all 1s ease;
+}
+
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/main-page.jpg);
+    background-size: 100vw 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+
+.main-content{
+    transition: all 2s ease;
+    font-size: 14pt;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    
+}
+
+.font-main-one{
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+#main-page-button{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 13rem;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border: 1px white solid;
+    text-decoration: none;
+    color: azure;
+    font-size: 16pt;
+}
+
+.class-G{
+    position: relative;
+    transition: all 2s ease;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.topgear.com/sites/default/files/cars-car/image/2022/01/1-Mercedes-G-Class.jpg?w=1280&h=720);
+    background-size: 100vw 100vh;
+    z-index: 2;
+
+}
+
+
+.g-class-content{
+    transition: all 2s ease;
+    font-size: 14pt;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+
+.G-class-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#G-class-button{
+    border-radius: 20px;
+    width:13rem;
+    background-color: azure;
+    border: 1px azure solid;
+    margin-top: 10px;
+    height: 1.8rem;
+    font-size: 16pt;
+
+}
+#first-p-G-calss{
+    font-weight: 700;
+    font-size: 16pt;
+    transition: all 2s ease;
+
+}
+
+.Mercedes-AMG{
+    transition: all 2s ease;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.topgear.com/sites/default/files/2023/07/1%20Mercedes-AMG%20A45.jpeg);
+    background-size: 100vw 100vh;
+}
+
+
+
+.Mercedes-AMG-content{
+    transition: all 2s ease;
+    font-size: 14pt;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 40px;
+    left: 50px;
+    
+}
+
+
+#first-para-AMG{
+    font-weight: 700;
+    font-size: 16pt;
+    transition: all 2s ease;
+}
+
+
+
+.Mercedes-Benz{
+    transition: all 2s ease;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.whichcar.com.au/assets/w_3000/6b101729/2023-mercedes-benz-glc300-080-hr-dynamic-main.jpg);
+    background-size: 100vw 100vh;
+
+}
+
+
+.Mercedes-Benz-content{
+    transition: all 2s ease;
+    font-size: 14pt;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+
+.first-p-Mercedes{
+    font-weight: 700;
+    font-size: 16pt;
+    transition: all 2s ease;
+}
+
+#Mercedes-button{
+    border-radius: 20px;
+    width: 18rem;
+    background-color: azure;
+    border: 1px azure solid;
+    margin-top: 10px;
+    height: 2rem;
+    font-size: 16pt;
+
+}
+
+.Mercedes-Maybach{
+    transition: all 2s ease;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://vehicle-images.dealerinspire.com/fe15-110007835/W1K6X7KB2PA191864/241fad4b0cfb53e392b545bc07cc06ba.jpg);
+    background-size: 100vw 100vh;
+    
+}
+
+.Mercedes-Maybach-contetnt{
+    transition: all 2s ease;
+    font-size: 14pt;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+
+.Maybach-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+}
+
+#Mercedes-button-Maybach{
+    border-radius: 20px;
+    width: 24rem;
+    background-color: azure;
+    border: 1px azure solid;
+    margin-top: 10px;
+    height: 2rem;
+}
+
+
+
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    border: 1px white solid;
+}
+
+
+
+#Footer-para-first{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: azure;
+    font-family: 'Playfair Display', serif;
+    font-size: 36pt;
+}
+
+
+.logos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Logo-style{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+
+
+.Logo-style:hover{
+    transition: all 1s ease;
+    transform: scale(1.5);
+    background-color: aqua;
+
+}
+
+#footer-logo-benz{
+    margin-top: 4rem;
+    
+    width: 25rem;
+    height: 15rem;
+}
+
+.footer-image-flex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
